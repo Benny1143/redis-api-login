@@ -1,0 +1,24 @@
+{
+  "name": "redis-api-login",
+  "version": "1.0.0",
+  "description": "Login api w Redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "redis-api-login"
+  },
+  "author": "benny",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "redis": "^4.0.0-rc.3"
+  },
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
